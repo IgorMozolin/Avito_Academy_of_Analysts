@@ -1,0 +1,41 @@
+pytest API_year.py -v
+
+================================================= test session starts =================================================
+platform win32 -- Python 3.10.13, pytest-7.1.2, pluggy-1.0.0 -- C:\Users\User\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: D:\DataScience\AAA\1_semester\Python\Git_clone\Testing\issue-05
+plugins: anyio-3.5.0
+collected 3 items
+
+API_year.py::test_value_error PASSED                                                                             [ 33%]
+API_year.py::test_first_if PASSED                                                                                [ 66%]
+API_year.py::test_elif PASSED                                                                                    [100%]
+
+================================================== 3 passed in 0.16s ==================================================
+
+
+coverage run -m pytest -q API_year.py -v
+
+================================================= test session starts =================================================
+platform win32 -- Python 3.10.13, pytest-7.1.2, pluggy-1.0.0
+rootdir: D:\DataScience\AAA\1_semester\Python\Git_clone\Testing\issue-05
+plugins: anyio-3.5.0
+collected 3 items
+
+API_year.py ...                                                                                                  [100%]
+
+================================================== 3 passed in 0.08s ==================================================
+
+
+coverage report
+
+Name          Stmts   Miss  Cover
+---------------------------------
+API_year.py      33      0   100%
+---------------------------------
+TOTAL            33      0   100%
+
+
+coverage html
+
+Wrote HTML report to ←]8;;file://D:\DataScience\AAA\1_semester\Python\Git_clone\Testing\issue-05\htmlcov\index.htmlhtmlcov\index.html←]8;;
