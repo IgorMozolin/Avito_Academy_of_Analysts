@@ -1,0 +1,25 @@
+python -m doctest -v -o ELLIPSIS Morse_coding.py
+Trying:
+    encode("SOS")
+Expecting:
+    '... --- ...'
+ok
+Trying:
+    encode("IGOR") # doctest: +NORMALIZE_WHITESPACE
+Expecting:
+    '..  --.  ---  .-.'
+ok
+Trying:
+    encode(-1)
+Expecting:
+    Traceback (most recent call last):
+    ...
+    TypeError: 'int' object is not iterable
+ok
+1 items had no tests:
+    Morse_coding
+1 items passed all tests:
+   3 tests in Morse_coding.encode
+3 tests in 2 items.
+3 passed and 0 failed.
+Test passed.
