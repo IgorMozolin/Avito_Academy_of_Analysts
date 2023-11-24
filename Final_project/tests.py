@@ -11,7 +11,6 @@ def test_order_with_delivery():
     1. Order a Pepperoni pizza with delivery.
     2. Verify that the log message indicates the pizza preparation time.
     3. Verify that the log message indicates the delivery time.
-
     """
     runner = CliRunner()
     result = runner.invoke(cli, [
