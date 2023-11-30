@@ -1,0 +1,15 @@
+pytest One_Hot_Encoding_py.py -v
+
+================================================= test session starts =================================================
+platform win32 -- Python 3.10.13, pytest-7.1.2, pluggy-1.0.0 -- C:\Users\User\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: D:\DataScience\AAA\1_semester\Python\Git_clone\Testing\issue-04
+plugins: anyio-3.5.0
+collected 4 items
+
+One_Hot_Encoding_py.py::test_first PASSED                                                                        [ 25%]
+One_Hot_Encoding_py.py::test_third PASSED                                                                        [ 50%]
+One_Hot_Encoding_py.py::test_second[text0-result0] PASSED                                                        [ 75%]
+One_Hot_Encoding_py.py::test_fourth PASSED                                                                       [100%]
+
+================================================== 4 passed in 0.02s ==================================================

@@ -1,0 +1,15 @@
+python -m unittest -v One_Hot_Encoding.py
+
+test_first (One_Hot_Encoding.TestOHE)
+Test for a single category. ... ok
+test_fourth (One_Hot_Encoding.TestOHE)
+Test for an incorrect result. ... ok
+test_second (One_Hot_Encoding.TestOHE)
+Test for multiple categories. ... ok
+test_third (One_Hot_Encoding.TestOHE)
+Test for raising a TypeError with no arguments. ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
